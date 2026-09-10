@@ -1,0 +1,276 @@
+model,fold,rank,feature,mean_abs_shap
+LightGBM,1,1,serum_creatinine,0.8850488189001061
+LightGBM,1,2,ejection_fraction,0.8584432873457611
+LightGBM,1,3,age,0.8108861633984338
+LightGBM,1,4,creatinine_phosphokinase,0.6171449050718192
+LightGBM,1,5,platelets,0.49362542461256304
+LightGBM,1,6,sex,0.3614975528743561
+LightGBM,1,7,serum_sodium,0.32980921856470785
+LightGBM,1,8,diabetes,0.24320812640057443
+LightGBM,1,9,smoking,0.2075406198690793
+LightGBM,1,10,high_blood_pressure,0.18134009108964386
+LightGBM,1,11,anaemia,0.06292378122937019
+LightGBM,2,1,serum_creatinine,0.8446974743839937
+LightGBM,2,2,ejection_fraction,0.7815700269343108
+LightGBM,2,3,age,0.6362491426632779
+LightGBM,2,4,creatinine_phosphokinase,0.5410384396934221
+LightGBM,2,5,serum_sodium,0.4746858153612162
+LightGBM,2,6,platelets,0.43879689666980115
+LightGBM,2,7,high_blood_pressure,0.1717247613728327
+LightGBM,2,8,anaemia,0.13909294001346373
+LightGBM,2,9,diabetes,0.13591451135185273
+LightGBM,2,10,smoking,0.10466818218958973
+LightGBM,2,11,sex,0.09726115503066271
+LightGBM,3,1,serum_creatinine,0.9066321825448909
+LightGBM,3,2,ejection_fraction,0.8444515876018627
+LightGBM,3,3,creatinine_phosphokinase,0.6252613898898629
+LightGBM,3,4,age,0.5364436239740134
+LightGBM,3,5,platelets,0.4670635934167134
+LightGBM,3,6,high_blood_pressure,0.35636807618448124
+LightGBM,3,7,serum_sodium,0.31814180103052864
+LightGBM,3,8,anaemia,0.12381745488982371
+LightGBM,3,9,sex,0.12254986002596015
+LightGBM,3,10,diabetes,0.06247459674317642
+LightGBM,3,11,smoking,0.04191399695488644
+LightGBM,4,1,ejection_fraction,0.7792026207302148
+LightGBM,4,2,serum_creatinine,0.6397665206767422
+LightGBM,4,3,age,0.5630420026867616
+LightGBM,4,4,creatinine_phosphokinase,0.4844845068418942
+LightGBM,4,5,platelets,0.3735166824775717
+LightGBM,4,6,serum_sodium,0.30587705232921447
+LightGBM,4,7,high_blood_pressure,0.26139958433182287
+LightGBM,4,8,anaemia,0.15144310562347016
+LightGBM,4,9,smoking,0.11586539510970939
+LightGBM,4,10,sex,0.08746648914609602
+LightGBM,4,11,diabetes,0.0833453071269434
+LightGBM,5,1,ejection_fraction,0.9422786439601493
+LightGBM,5,2,serum_creatinine,0.8320353661889598
+LightGBM,5,3,platelets,0.5609513674926478
+LightGBM,5,4,age,0.4525556130446923
+LightGBM,5,5,creatinine_phosphokinase,0.37791036540290673
+LightGBM,5,6,serum_sodium,0.3085987503989653
+LightGBM,5,7,anaemia,0.22931349247600252
+LightGBM,5,8,sex,0.18161489898324923
+LightGBM,5,9,high_blood_pressure,0.17203845592231432
+LightGBM,5,10,smoking,0.0916506208339147
+LightGBM,5,11,diabetes,0.0740110119686999
+Logistic Regression,1,1,ejection_fraction,0.6783059614767056
+Logistic Regression,1,2,age,0.6461465727071132
+Logistic Regression,1,3,serum_creatinine,0.4506975481109044
+Logistic Regression,1,4,sex,0.3487204846621483
+Logistic Regression,1,5,serum_sodium,0.21671816968741983
+Logistic Regression,1,6,anaemia,0.21424596648286964
+Logistic Regression,1,7,smoking,0.19581242936049825
+Logistic Regression,1,8,creatinine_phosphokinase,0.15156188786044023
+Logistic Regression,1,9,high_blood_pressure,0.14637441953818767
+Logistic Regression,1,10,platelets,0.14517312508875327
+Logistic Regression,1,11,diabetes,0.13959243799710358
+Logistic Regression,2,1,age,0.5536107687065364
+Logistic Regression,2,2,ejection_fraction,0.5489865941112673
+Logistic Regression,2,3,serum_creatinine,0.34719459315641893
+Logistic Regression,2,4,serum_sodium,0.28945047792532214
+Logistic Regression,2,5,high_blood_pressure,0.1936276768958616
+Logistic Regression,2,6,creatinine_phosphokinase,0.16918641162552375
+Logistic Regression,2,7,anaemia,0.10639980822667305
+Logistic Regression,2,8,smoking,0.09860507414941046
+Logistic Regression,2,9,sex,0.08794989887883124
+Logistic Regression,2,10,platelets,0.06760629886802874
+Logistic Regression,2,11,diabetes,0.03639134706541174
+Logistic Regression,3,1,ejection_fraction,0.7067248956172281
+Logistic Regression,3,2,age,0.5169015910173105
+Logistic Regression,3,3,serum_creatinine,0.3818901277336951
+Logistic Regression,3,4,high_blood_pressure,0.23564581928845138
+Logistic Regression,3,5,anaemia,0.15734284423087974
+Logistic Regression,3,6,creatinine_phosphokinase,0.15017404465797843
+Logistic Regression,3,7,sex,0.09978156998708909
+Logistic Regression,3,8,diabetes,0.09117028629398594
+Logistic Regression,3,9,platelets,0.08364507161787219
+Logistic Regression,3,10,serum_sodium,0.07626186672432002
+Logistic Regression,3,11,smoking,0.0002023955949980813
+Logistic Regression,4,1,ejection_fraction,0.5489573978678545
+Logistic Regression,4,2,age,0.5343172471425004
+Logistic Regression,4,3,serum_creatinine,0.32028279241923313
+Logistic Regression,4,4,anaemia,0.2601218244789188
+Logistic Regression,4,5,high_blood_pressure,0.21938428526680084
+Logistic Regression,4,6,smoking,0.1915977940123296
+Logistic Regression,4,7,sex,0.1442998354022733
+Logistic Regression,4,8,creatinine_phosphokinase,0.13929877039128666
+Logistic Regression,4,9,serum_sodium,0.12435183775152545
+Logistic Regression,4,10,diabetes,0.11052628756845322
+Logistic Regression,4,11,platelets,0.013399721008858206
+Logistic Regression,5,1,ejection_fraction,0.5965446596418528
+Logistic Regression,5,2,serum_creatinine,0.3926551301371181
+Logistic Regression,5,3,age,0.3733265666673949
+Logistic Regression,5,4,anaemia,0.2603729175619031
+Logistic Regression,5,5,sex,0.20173584803786776
+Logistic Regression,5,6,serum_sodium,0.18728143194202904
+Logistic Regression,5,7,high_blood_pressure,0.1257474529197388
+Logistic Regression,5,8,creatinine_phosphokinase,0.09977502771867455
+Logistic Regression,5,9,diabetes,0.04860459340197356
+Logistic Regression,5,10,platelets,0.04461165225144334
+Logistic Regression,5,11,smoking,0.005048012717415635
+KNN,1,1,ejection_fraction,0.06353656106794185
+KNN,1,2,age,0.06103247658896198
+KNN,1,3,serum_creatinine,0.05027615062761507
+KNN,1,4,high_blood_pressure,0.046921299063558505
+KNN,1,5,anaemia,0.04089101414624427
+KNN,1,6,smoking,0.031939031679617445
+KNN,1,7,serum_sodium,0.028722454672245462
+KNN,1,8,diabetes,0.025108985853755737
+KNN,1,9,sex,0.02363419007770471
+KNN,1,10,platelets,0.015795178322374977
+KNN,1,11,creatinine_phosphokinase,0.009216975493126115
+KNN,2,1,age,0.058596533173939015
+KNN,2,2,ejection_fraction,0.05604064554692171
+KNN,2,3,high_blood_pressure,0.043188683004582604
+KNN,2,4,serum_creatinine,0.03919625423391114
+KNN,2,5,diabetes,0.036110380553895184
+KNN,2,6,serum_sodium,0.03395536959553695
+KNN,2,7,smoking,0.02766567045228133
+KNN,2,8,sex,0.026526399681211406
+KNN,2,9,anaemia,0.023989639370392505
+KNN,2,10,platelets,0.017674437138872293
+KNN,2,11,creatinine_phosphokinase,0.014593345287905964
+KNN,3,1,age,0.0502498505678422
+KNN,3,2,ejection_fraction,0.04954811715481171
+KNN,3,3,serum_creatinine,0.04640087666865908
+KNN,3,4,anaemia,0.044685395497110994
+KNN,3,5,high_blood_pressure,0.03439768878262603
+KNN,3,6,diabetes,0.03242717672843195
+KNN,3,7,smoking,0.031800757122932864
+KNN,3,8,serum_sodium,0.027513448894202038
+KNN,3,9,sex,0.020547519426180515
+KNN,3,10,platelets,0.01534409244869497
+KNN,3,11,creatinine_phosphokinase,0.0095317792388922
+KNN,4,1,high_blood_pressure,0.05673600318788605
+KNN,4,2,ejection_fraction,0.05594062562263394
+KNN,4,3,age,0.05263837417812315
+KNN,4,4,smoking,0.04637617055190277
+KNN,4,5,anaemia,0.04286790197250448
+KNN,4,6,diabetes,0.025646144650328752
+KNN,4,7,sex,0.022744769874476996
+KNN,4,8,serum_creatinine,0.021949392309224942
+KNN,4,9,serum_sodium,0.020865909543733813
+KNN,4,10,platelets,0.015892408846383727
+KNN,4,11,creatinine_phosphokinase,0.012303646144650321
+KNN,5,1,ejection_fraction,0.05591468253968255
+KNN,5,2,age,0.0420738095238095
+KNN,5,3,serum_creatinine,0.04195158730158731
+KNN,5,4,anaemia,0.03965317460317461
+KNN,5,5,high_blood_pressure,0.03338134920634919
+KNN,5,6,smoking,0.03023293650793651
+KNN,5,7,diabetes,0.02849246031746034
+KNN,5,8,serum_sodium,0.027282142857142862
+KNN,5,9,sex,0.019047222222222233
+KNN,5,10,platelets,0.01593531746031747
+KNN,5,11,creatinine_phosphokinase,0.008807539682539682
+Decision Tree,1,1,serum_creatinine,0.17247922067223903
+Decision Tree,1,2,ejection_fraction,0.12225484900103537
+Decision Tree,1,3,age,0.10986003406342276
+Decision Tree,1,4,platelets,0.05046421726689306
+Decision Tree,1,5,serum_sodium,0.03598851543721633
+Decision Tree,1,6,sex,0.03361390675905189
+Decision Tree,1,7,creatinine_phosphokinase,0.02812390290066284
+Decision Tree,1,8,diabetes,0.022247350389740718
+Decision Tree,1,9,anaemia,0.01102107794337164
+Decision Tree,1,10,smoking,0.005865514951124332
+Decision Tree,1,11,high_blood_pressure,0.0
+Decision Tree,2,1,serum_creatinine,0.1414478787943172
+Decision Tree,2,2,age,0.1019836862295947
+Decision Tree,2,3,ejection_fraction,0.09208824799127574
+Decision Tree,2,4,serum_sodium,0.07738563592200816
+Decision Tree,2,5,platelets,0.0749172222749526
+Decision Tree,2,6,creatinine_phosphokinase,0.055926224508402754
+Decision Tree,2,7,sex,0.024387498068011073
+Decision Tree,2,8,diabetes,0.02267197165630951
+Decision Tree,2,9,smoking,0.0034533667940942116
+Decision Tree,2,10,anaemia,0.0
+Decision Tree,2,11,high_blood_pressure,0.0
+Decision Tree,3,1,serum_creatinine,0.15289868473426904
+Decision Tree,3,2,ejection_fraction,0.1508226997046371
+Decision Tree,3,3,age,0.08620635053620092
+Decision Tree,3,4,creatinine_phosphokinase,0.04979098033565768
+Decision Tree,3,5,high_blood_pressure,0.03912394497748994
+Decision Tree,3,6,diabetes,0.03462680025711953
+Decision Tree,3,7,serum_sodium,0.034198129440166966
+Decision Tree,3,8,platelets,0.031140568889158095
+Decision Tree,3,9,anaemia,0.010672856030063562
+Decision Tree,3,10,sex,0.007305595297383716
+Decision Tree,3,11,smoking,0.0
+Decision Tree,4,1,ejection_fraction,0.15315709743736733
+Decision Tree,4,2,serum_creatinine,0.11830003653679767
+Decision Tree,4,3,age,0.08584610496877201
+Decision Tree,4,4,creatinine_phosphokinase,0.060053538560780294
+Decision Tree,4,5,serum_sodium,0.05217847773821254
+Decision Tree,4,6,platelets,0.048544355061987086
+Decision Tree,4,7,high_blood_pressure,0.031933240370006125
+Decision Tree,4,8,smoking,0.02488998487389238
+Decision Tree,4,9,sex,0.016137408465067914
+Decision Tree,4,10,anaemia,0.005505231141527791
+Decision Tree,4,11,diabetes,0.0
+Decision Tree,5,1,ejection_fraction,0.16436434226431393
+Decision Tree,5,2,serum_creatinine,0.12504816823829293
+Decision Tree,5,3,platelets,0.0790029388313954
+Decision Tree,5,4,creatinine_phosphokinase,0.06609296439929507
+Decision Tree,5,5,age,0.05713643393733296
+Decision Tree,5,6,serum_sodium,0.02237033307508735
+Decision Tree,5,7,diabetes,0.01775799819333376
+Decision Tree,5,8,high_blood_pressure,0.009024811237594613
+Decision Tree,5,9,anaemia,0.007779481083732881
+Decision Tree,5,10,smoking,0.005015137706592965
+Decision Tree,5,11,sex,0.0
+SVM,1,1,ejection_fraction,0.0845821323303216
+SVM,1,2,serum_creatinine,0.0790474308394965
+SVM,1,3,age,0.06560293348088127
+SVM,1,4,serum_sodium,0.029459008615081772
+SVM,1,5,smoking,0.02817813269453196
+SVM,1,6,sex,0.027651867714309726
+SVM,1,7,platelets,0.025002075694341624
+SVM,1,8,anaemia,0.019743904977376207
+SVM,1,9,high_blood_pressure,0.017013146384364963
+SVM,1,10,creatinine_phosphokinase,0.01129188121454697
+SVM,1,11,diabetes,0.010883657592726628
+SVM,2,1,serum_creatinine,0.06831308514548431
+SVM,2,2,ejection_fraction,0.06375874678193538
+SVM,2,3,age,0.061840443530262634
+SVM,2,4,serum_sodium,0.051927256274963036
+SVM,2,5,creatinine_phosphokinase,0.021131096007215442
+SVM,2,6,sex,0.019258970359207525
+SVM,2,7,platelets,0.018501334421769915
+SVM,2,8,diabetes,0.018317942558265913
+SVM,2,9,high_blood_pressure,0.017186198102743886
+SVM,2,10,smoking,0.010561166963978961
+SVM,2,11,anaemia,0.008174843991794871
+SVM,3,1,ejection_fraction,0.07223630818390227
+SVM,3,2,serum_creatinine,0.06962244525322381
+SVM,3,3,age,0.056084143179721685
+SVM,3,4,serum_sodium,0.030594841622524717
+SVM,3,5,high_blood_pressure,0.023426793439785473
+SVM,3,6,smoking,0.020591106972753914
+SVM,3,7,platelets,0.01967249009353936
+SVM,3,8,sex,0.016937287139931548
+SVM,3,9,anaemia,0.014899828504676006
+SVM,3,10,diabetes,0.0132063803439515
+SVM,3,11,creatinine_phosphokinase,0.009380708386811525
+SVM,4,1,ejection_fraction,0.04971275182385412
+SVM,4,2,age,0.047467348337339
+SVM,4,3,smoking,0.036576871295661936
+SVM,4,4,serum_sodium,0.020387880784095758
+SVM,4,5,serum_creatinine,0.018994672996932794
+SVM,4,6,high_blood_pressure,0.01848666346267133
+SVM,4,7,anaemia,0.017659654602876086
+SVM,4,8,sex,0.01644495115593828
+SVM,4,9,diabetes,0.008709123417977232
+SVM,4,10,creatinine_phosphokinase,0.007983044025202361
+SVM,4,11,platelets,0.007447396784152656
+SVM,5,1,ejection_fraction,0.06041505916551805
+SVM,5,2,serum_creatinine,0.0572987249334709
+SVM,5,3,age,0.03790614210436737
+SVM,5,4,serum_sodium,0.0318501758208373
+SVM,5,5,sex,0.01948314414611112
+SVM,5,6,smoking,0.01455876550103369
+SVM,5,7,anaemia,0.012956869298904569
+SVM,5,8,diabetes,0.012749766132587161
+SVM,5,9,platelets,0.012690435241671261
+SVM,5,10,high_blood_pressure,0.007692837279869425
+SVM,5,11,creatinine_phosphokinase,0.0061688966480850605

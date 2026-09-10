@@ -1,0 +1,19 @@
+parameter,value
+data_path,D:\KULIAH\SEMESTER7\SKRIPSI_V3\workspace_model\Dataset\heart_failure_clinical_records_dataset.csv
+n_samples,299
+n_features_used,11
+features_used,"age, anaemia, creatinine_phosphokinase, diabetes, ejection_fraction, high_blood_pressure, platelets, serum_creatinine, serum_sodium, sex, smoking"
+excluded_features,time
+target,death_event
+validation,Stratified 5-Fold Cross-Validation
+models,"LightGBM, Logistic Regression, KNN, Decision Tree, SVM"
+model_setting,Baseline/basic; tanpa hyperparameter tuning atau model-specific enhancement
+scaled_models,"Logistic Regression, KNN, SVM"
+shap_method,"TreeExplainer untuk tree-based, LinearExplainer untuk LR, PermutationExplainer untuk KNN dan SVM"
+shap_reference,Training fold only
+shap_background_samples,50
+feature_scenarios,"BASELINE_ALL, SHAP_TOP3, SHAP_TOP5, SHAP_TOP7"
+evaluation_data,Held-out test fold only
+smote,Not used
+ranking_priority,G-Mean -> MCC -> ROC-AUC -> Accuracy
+random_state,42

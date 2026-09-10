@@ -1,0 +1,102 @@
+model,scenario,feature,selected_in_folds,total_folds,selection_frequency
+Decision Tree,SHAP_TOP3,ejection_fraction,5,5,1.0
+Decision Tree,SHAP_TOP3,serum_creatinine,5,5,1.0
+Decision Tree,SHAP_TOP3,age,4,5,0.8
+Decision Tree,SHAP_TOP3,platelets,1,5,0.2
+Decision Tree,SHAP_TOP5,age,5,5,1.0
+Decision Tree,SHAP_TOP5,ejection_fraction,5,5,1.0
+Decision Tree,SHAP_TOP5,serum_creatinine,5,5,1.0
+Decision Tree,SHAP_TOP5,creatinine_phosphokinase,3,5,0.6
+Decision Tree,SHAP_TOP5,platelets,3,5,0.6
+Decision Tree,SHAP_TOP5,serum_sodium,3,5,0.6
+Decision Tree,SHAP_TOP5,high_blood_pressure,1,5,0.2
+Decision Tree,SHAP_TOP7,age,5,5,1.0
+Decision Tree,SHAP_TOP7,creatinine_phosphokinase,5,5,1.0
+Decision Tree,SHAP_TOP7,ejection_fraction,5,5,1.0
+Decision Tree,SHAP_TOP7,serum_creatinine,5,5,1.0
+Decision Tree,SHAP_TOP7,serum_sodium,5,5,1.0
+Decision Tree,SHAP_TOP7,platelets,4,5,0.8
+Decision Tree,SHAP_TOP7,diabetes,2,5,0.4
+Decision Tree,SHAP_TOP7,high_blood_pressure,2,5,0.4
+Decision Tree,SHAP_TOP7,sex,2,5,0.4
+KNN,SHAP_TOP3,age,5,5,1.0
+KNN,SHAP_TOP3,ejection_fraction,5,5,1.0
+KNN,SHAP_TOP3,serum_creatinine,3,5,0.6
+KNN,SHAP_TOP3,high_blood_pressure,2,5,0.4
+KNN,SHAP_TOP5,age,5,5,1.0
+KNN,SHAP_TOP5,ejection_fraction,5,5,1.0
+KNN,SHAP_TOP5,high_blood_pressure,5,5,1.0
+KNN,SHAP_TOP5,anaemia,4,5,0.8
+KNN,SHAP_TOP5,serum_creatinine,4,5,0.8
+KNN,SHAP_TOP5,diabetes,1,5,0.2
+KNN,SHAP_TOP5,smoking,1,5,0.2
+KNN,SHAP_TOP7,age,5,5,1.0
+KNN,SHAP_TOP7,ejection_fraction,5,5,1.0
+KNN,SHAP_TOP7,high_blood_pressure,5,5,1.0
+KNN,SHAP_TOP7,smoking,5,5,1.0
+KNN,SHAP_TOP7,anaemia,4,5,0.8
+KNN,SHAP_TOP7,diabetes,4,5,0.8
+KNN,SHAP_TOP7,serum_creatinine,4,5,0.8
+KNN,SHAP_TOP7,serum_sodium,2,5,0.4
+KNN,SHAP_TOP7,sex,1,5,0.2
+LightGBM,SHAP_TOP3,ejection_fraction,5,5,1.0
+LightGBM,SHAP_TOP3,serum_creatinine,5,5,1.0
+LightGBM,SHAP_TOP3,age,3,5,0.6
+LightGBM,SHAP_TOP3,creatinine_phosphokinase,1,5,0.2
+LightGBM,SHAP_TOP3,platelets,1,5,0.2
+LightGBM,SHAP_TOP5,age,5,5,1.0
+LightGBM,SHAP_TOP5,creatinine_phosphokinase,5,5,1.0
+LightGBM,SHAP_TOP5,ejection_fraction,5,5,1.0
+LightGBM,SHAP_TOP5,serum_creatinine,5,5,1.0
+LightGBM,SHAP_TOP5,platelets,4,5,0.8
+LightGBM,SHAP_TOP5,serum_sodium,1,5,0.2
+LightGBM,SHAP_TOP7,age,5,5,1.0
+LightGBM,SHAP_TOP7,creatinine_phosphokinase,5,5,1.0
+LightGBM,SHAP_TOP7,ejection_fraction,5,5,1.0
+LightGBM,SHAP_TOP7,platelets,5,5,1.0
+LightGBM,SHAP_TOP7,serum_creatinine,5,5,1.0
+LightGBM,SHAP_TOP7,serum_sodium,5,5,1.0
+LightGBM,SHAP_TOP7,high_blood_pressure,3,5,0.6
+LightGBM,SHAP_TOP7,anaemia,1,5,0.2
+LightGBM,SHAP_TOP7,sex,1,5,0.2
+Logistic Regression,SHAP_TOP3,age,5,5,1.0
+Logistic Regression,SHAP_TOP3,ejection_fraction,5,5,1.0
+Logistic Regression,SHAP_TOP3,serum_creatinine,5,5,1.0
+Logistic Regression,SHAP_TOP5,age,5,5,1.0
+Logistic Regression,SHAP_TOP5,ejection_fraction,5,5,1.0
+Logistic Regression,SHAP_TOP5,serum_creatinine,5,5,1.0
+Logistic Regression,SHAP_TOP5,anaemia,3,5,0.6
+Logistic Regression,SHAP_TOP5,high_blood_pressure,3,5,0.6
+Logistic Regression,SHAP_TOP5,serum_sodium,2,5,0.4
+Logistic Regression,SHAP_TOP5,sex,2,5,0.4
+Logistic Regression,SHAP_TOP7,age,5,5,1.0
+Logistic Regression,SHAP_TOP7,anaemia,5,5,1.0
+Logistic Regression,SHAP_TOP7,ejection_fraction,5,5,1.0
+Logistic Regression,SHAP_TOP7,serum_creatinine,5,5,1.0
+Logistic Regression,SHAP_TOP7,high_blood_pressure,4,5,0.8
+Logistic Regression,SHAP_TOP7,sex,4,5,0.8
+Logistic Regression,SHAP_TOP7,serum_sodium,3,5,0.6
+Logistic Regression,SHAP_TOP7,creatinine_phosphokinase,2,5,0.4
+Logistic Regression,SHAP_TOP7,smoking,2,5,0.4
+SVM,SHAP_TOP3,age,5,5,1.0
+SVM,SHAP_TOP3,ejection_fraction,5,5,1.0
+SVM,SHAP_TOP3,serum_creatinine,4,5,0.8
+SVM,SHAP_TOP3,smoking,1,5,0.2
+SVM,SHAP_TOP5,age,5,5,1.0
+SVM,SHAP_TOP5,ejection_fraction,5,5,1.0
+SVM,SHAP_TOP5,serum_creatinine,5,5,1.0
+SVM,SHAP_TOP5,serum_sodium,5,5,1.0
+SVM,SHAP_TOP5,smoking,2,5,0.4
+SVM,SHAP_TOP5,creatinine_phosphokinase,1,5,0.2
+SVM,SHAP_TOP5,high_blood_pressure,1,5,0.2
+SVM,SHAP_TOP5,sex,1,5,0.2
+SVM,SHAP_TOP7,age,5,5,1.0
+SVM,SHAP_TOP7,ejection_fraction,5,5,1.0
+SVM,SHAP_TOP7,serum_creatinine,5,5,1.0
+SVM,SHAP_TOP7,serum_sodium,5,5,1.0
+SVM,SHAP_TOP7,smoking,4,5,0.8
+SVM,SHAP_TOP7,platelets,3,5,0.6
+SVM,SHAP_TOP7,sex,3,5,0.6
+SVM,SHAP_TOP7,anaemia,2,5,0.4
+SVM,SHAP_TOP7,high_blood_pressure,2,5,0.4
+SVM,SHAP_TOP7,creatinine_phosphokinase,1,5,0.2
